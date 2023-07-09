@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:padding="@dimen/horizontal_padding_24dp"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/LoginText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:fontFamily="@font/aldrich"
+            android:text="@string/back"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonborder"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="12dp"
+            android:hint="@string/email"
+            android:padding="8dp"
+
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/headings_colr"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/buttonborder"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:hint="@string/Hint_Password"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="13dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="13dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/headings_colr"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/forgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="13dp"
+            android:text="@string/forgot_pas"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/buttonColor"
+            android:text="@string/Button_Submit"
+            android:textSize="16dp"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:id="@+id/signupText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/customrectangle"
+            android:padding="12dp"
+            android:text="@string/NYSignUp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:text="@string/OR"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/btnlogingoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonborder"
+            android:weightSum="1"
+            android:onClick="initiateGoogleSignIn"
+            android:gravity="center_vertical"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:onClick="initiateGoogleSignIn"
+                android:layout_weight="0.2"
+                android:clickable="false"
+                android:src="@drawable/g1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.80"
+            android:text="@string/lfacebook"
+            android:layout_gravity="center"
+            android:onClick="initiateGoogleSignIn"
+            android:background="@android:color/transparent"
+            android:textSize="14sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">RehabNow</string>
+    <string name="Login">Login Now</string>
+    <string name="Hint_UserName">Enter UserName</string>
+    <string name="Hint_Password">Enter Your Password </string>
+    <string name="Button_Submit">Login</string>
+    <string name="NYSignUp">Not yet Registered? Sign up Now!</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="name">Enter Your Name</string>
+    <string name="first_name">Enter First Name</string>
+    <string name="last_name">Enter Last Name</string>
+    <string name="Phone_number">Enter your Phone Number</string>
+    <string name="email">Enter Your Email</string>
+    <string name="Password">Enter Your Password</string>
+    <string name="Re_Enter">Confirm Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="create_new_account">Create new Account?</string>
+    <string name="forgot_pas">Forgot Password?</string>
+    <string name="OR">------OR--------</string>
+    <string name="alreadyacc">already have an account</string>
+    <string name="home">Home</string>
+    <string name="location">Choose Location</string>
+    <string name="doctor">Choose the Doctor</string>
+    <string name="appointment">Make an Appointment</string>
+    <string name="Find_Urgent">Find an Urgent Core Location</string>
+    <string name="DoctorName">Syeda Mirha Fatima</string>
+    <string name="Doctor_Location">Central Park Teaching Hospital</string>
+    <string name="Fee">Fee: Rs. 300</string>
+    <string name="headingwelcome">Welcome to RehabNow</string>
+    <string name="slogan">Rebuilding Stronger: Your Journey to Recovery Starts Here</string>
+    <string name="newAccount">Create New Account</string>
+    <string name="login1">Login</string>
+    <string name="back">Back</string>
+    <string name="sfacebook">Sign Up with Facebook</string>
+    <string name="sgoogle">Sign Up with Google</string>
+    <string name="lgoogle">Sign Up with Facebook</string>
+    <string name="lfacebook">Log in with Google</string>
+
+
+    <string name="server_client_id" translatable="false">289418839984-9qdcs5a4iuvq0pjvdkn35849n559k5qi.apps.googleusercontent.com</string>
+
+
+    <string name="Specialization">Choose Your Specialization </string>
+    <string name="Education">Choose  Your Qualification </string>
+    <string name="DoctorLocation">Enter Your Location </string>
+    <string name="province">Choose Your Province</string>
+    <string name="city">Choose Your City</string>
+    <string name="sD">Search by Diseases</string>
+    <string name="Vtv">Video Consultation</string>
+    <string name="pmc">Pmc Verified Doctors</string>
+    <string name="abtv">About PhysioTherapy</string>
+    <string name="injuries">Injuries:</string>
+    <string name="sci">Spinal Cord Injuries</string>
+    <string name="sti">Soft Tissue Injuires</string>
+    <string name="ni">Nerve injuries</string>
+    <string name="rehab">Rehabilitation</string>
+    <string name="cr">Cardio Rehabilitation</string>
+    <string name="pr">Pulmonary Rehabilitaiton</string>
+    <string name="nr">Neurological Rehabilitaiton</string>
+    <string name="condition">Conditions</string>
+    <string name="acute">Acute</string>
+    <string name="Overuse">Overuse</string>
+
+    <string name="Chronic">Chronic</string>
+    <string name="tq">Techniques</string>
+    <string name="have_patient">Have the patient do certain exercises</string>
+    <string name="Use_Muscle">Use Muscle Stimulation devices</string>
+    <string name="Manipulate">Manipulate Joints Teach certain lifestyle</string>
+    <string name="In_Clinic_Visit">In-clinic Visit</string>
+    <string name="Book_Appointment">Book Appointment</string>
+
+</resources>

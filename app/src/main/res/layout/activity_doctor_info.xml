@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoctorInfo">
+
+    <TextView
+        android:id="@+id/tvBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/qatv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Education"
+        android:textSize="14sp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoqa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:dropDownHeight="20dp"
+        android:scrollbarSize="14sp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/sptv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Specialization"
+        android:textSize="14sp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autosp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:scrollbarSize="14sp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cptv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/province"
+        android:textSize="14sp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autocompletetv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:scrollbarSize="14sp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/cctv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/city"
+        android:textSize="14sp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autocompletecitytv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:scrollbarSize="14sp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</LinearLayout>

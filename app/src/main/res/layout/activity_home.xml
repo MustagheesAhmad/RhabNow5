@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".PatientHome">
+
+
+    <TextView
+         android:id="@+id/tvHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" />
+
+
+    <TextView
+        android:id="@+id/cptv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:drawableRight="@drawable/car_ui_icon_search"
+        android:drawablePadding="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/sD"
+        android:textSize="14sp"
+        android:textStyle="normal"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autosp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/appbackgroundColor"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/vTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="@string/Vtv"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pmctv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="@string/pmc"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/videoconsultim"
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/videoconsult" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/appbackgroundColor"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/inClinicTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:text="@string/In_Clinic_Visit"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bookAppointmentTv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.5"
+                    android:text="@string/Book_Appointment"
+                    android:textColor="@color/black"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/bookappointIm"
+                    android:layout_width="match_parent"
+                    android:layout_height="134dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bookappointment" />
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/flocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/customrectangle"
+        android:drawableLeft="@drawable/baseline_location_on_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:onClick="chooseLocation"
+        android:paddingLeft="20dp"
+        android:paddingTop="13dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="13dp"
+        android:text="@string/location"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+
+        />
+
+    <TextView
+        android:id="@+id/tvChooseDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/customrectangle"
+        android:drawableLeft="@drawable/baseline_female_24"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingTop="13dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="13dp"
+        android:text="@string/doctor"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/customrectangle"
+        android:drawableLeft="@drawable/baseline_add_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:onClick="showAppointmentsDialog"
+        android:paddingLeft="20dp"
+        android:paddingTop="13dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="13dp"
+        android:text="@string/appointment"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/urgentLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/customrectangle"
+        android:drawableLeft="@drawable/baseline_local_hospital_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingTop="13dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="13dp"
+        android:text="@string/Find_Urgent"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <TextView
+        android:id="@+id/abtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:background="@drawable/customrectangle"
+        android:drawableLeft="@drawable/baseline_local_hospital_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingTop="13dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="13dp"
+        android:text="@string/abtv"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+</LinearLayout>

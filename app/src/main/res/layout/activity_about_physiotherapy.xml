@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".PatientHome"
+
+    >
+
+
+    <TextView
+        android:id="@+id/tvHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/black"/>
+    <TextView
+        android:id="@+id/tvabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/abtv"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:layout_marginTop="12dp"
+        android:textStyle="italic"
+
+        />
+
+    <TextView
+        android:id="@+id/injuries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/injuries"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/spci"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sci"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/softi"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sti"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/nervei"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ni"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/rehab"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rehab"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/neurotv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nr"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+
+    <TextView
+    android:id="@+id/cardio"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cr"
+    android:textSize="14sp"
+    android:textColor="@color/buttonColor"
+    android:textStyle="normal" />
+
+    <TextView
+    android:id="@+id/pulmonary"
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/pr"
+    android:textSize="14sp"
+    android:textColor="@color/buttonColor"
+    android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/condition"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/condition"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/acutetv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acute"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/overusetv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Overuse"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/chronic"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Chronic"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/technique"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tq"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/havetv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/have_patient"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/useMuscle"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Use_Muscle"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/manipulate"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Manipulate"
+        android:textSize="14sp"
+        android:textColor="@color/buttonColor"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

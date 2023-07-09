@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "289418839984",
+    "firebase_url": "https://rehabnow-c9bb7-default-rtdb.firebaseio.com",
+    "project_id": "rehabnow-c9bb7",
+    "storage_bucket": "rehabnow-c9bb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289418839984:android:5399c8f2343159bc7ef875",
+        "android_client_info": {
+          "package_name": "com.example.rehabnow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289418839984-12qfvptt32mnks4l1qh0sg1od67jmjsb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rehabnow",
+            "certificate_hash": "d98476ffe53a688b1f3a3098c6db54d091efe5d2"
+          }
+        },
+        {
+          "client_id": "289418839984-lg2d89o4u289tqr7akdq29anikd1tjqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvrDZuMueCTq_KvmVlAB4IJGdtEAkjf3k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289418839984-9qdcs5a4iuvq0pjvdkn35849n559k5qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
